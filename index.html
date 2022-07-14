@@ -1,91 +1,207 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Profile - Michael Gbadebo</title>
-  </head>
-  <body>
-    <table>
-      <td><img src="IMG_8bk3bl-modified.png", height="200" alt="My Image"></td>
-      <td>
-        <h1>Michael Gbadebo</h1>
-        <p>
-        <i>
-          Python Developer <br>Graduate of Agricultural Engineering <br>
-          Head of Engineering Department, <b><a href="https://nigeria24.me/helen-genius-agro-products-limited">Helen Genius Agro Products Limited</a></b>
-        </i>
-        </p>
-      </td>
-    </table>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Gbadebo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="user">
+      <img src="IMG_8bk3bl-modified.png" alt="user image">
+      <h2 class="name">Michael Gbadebo</h2>
+      <p class="post">Front End Developer</p>
+    </div>
 
-    <table cellspacing='30' style="margin-top:-30px; margin-bottom:-30px">
-      <tr>
-        <td><img width="20" height="20" src="email-modified.png" alt="">mchladelola@yahoo.com</td>
-        <td><img width="20" height="20" src="twitter-modified.png" alt=""> <a href="https://twitter.com/Michael_G996">@Michael_G996</a></td>
-        <td><img width="20" height="20" src="LinkedIN.png" alt=""> <a href="https://www.linkedin.com/in/michael-gbadebo-8329361b4/">Michael (A.) Gbadebo</a></td>
-      </tr>
-    </table>
-    <p>
-      I am a self-motivated and passion driven python developer with a career objective of becoming a highly skilled and productive technological personnel.<br>
-      Delivering with a proactive approach, great work ethic, and the ability to function well in fast-paced/deadline-driven team environment
-    </p>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li><i>Tertiary Education:</i> <a href="https://unaab.edu.ng/">Federal University of Agriculture, Abeokuta</a><br>
-          Course: Agricultural and Bio-resources Engineering
-          Specialization: Food Processing and Biotechnology
-      </li>
-      <li><i>Secondary Education</i>
-        <ul>
-          <li>Anulolu International College</li>
-          <li><a href="https://osmas.com.ng/">Omolaja Sodipo Memorial Anglican School</a></li>
-        </ul>
-      </li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing='20' style="margin-top:-40px;">
-      <tr>
-        <td>2018</td>
-        <td>
-          <b>National Centre for Agricultural Mechanization</b><br>
-          <i>Engineering Intern</i><br>
-          <ul>
-            <li>Drawing and Design of Agricultural Machines</li>
-            <li>Testing and Maintenace of implements</li>
-          </ul>
-        </td>
-      </tr>
-      <br>
-      <tr>
-        <td>2019</td>
-        <td>
-          <b>Badola Ventures</b><br>
-          <i>Engineering Intern</i><br>
-          <ul>
-            <li>Overhauling of Heavy duty machineries</li>
-            <li>Testing and Maintenace of implements</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table border="1" cellspacing='5'>
-      <tr>
-        <td>Python</td>
-        <td>★★★☆☆</td>
-      </tr>
-      <tr>
-        <td>HTML & CSS</td>
-        <td>★☆☆☆☆</td>
-      </tr>
-      <tr>
-        <td>SQL</td>
-        <td>★☆☆☆☆</td>
-      </tr>
-    </table>
-    <hr>
-  </body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="menu" class="fas fa-bars"></div>
+
+  <section class="home" id="home">
+    <h3>Hi There,</h3>
+    <h1>I'm <span>Michael Gbadebo</span></h1>
+    <p>Self-motivated and passion-driven python developer with a career objective of becoming a highly skilled and productive technological personnel. Delivering with a proactive approach, great work ethic, and the ability to function well in fast-paced/deadline-driven team environments. </p>
+    <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></fas></button></a>
+  </section>
+  <section class="about" id="about">
+    <h1 class="heading"><span>about</span> me</h1>
+    <div class="row">
+      <div class="info">
+        <h3><span>name: </span> Michael Gbadebo</h3>
+        <h3><span>age: </span> 25</h3>
+        <h3><span>qualification: </span> B.Eng</h3>
+        <h3><span>post: </span> Front-End Developer</h3>
+        <h3><span>language: </span> English</h3>
+        <a href="1. Michael CV.pdf" download><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+      </div>
+      <div class="counter">
+        <div class="box">
+          <span>1</span>
+          <h3>year of experience</h3>
+        </div>
+        <div class="box">
+          <span>3+</span>
+          <h3>project completed</h3>
+        </div>
+        <div class="box">
+          <span>3+</span>
+          <h3>Developer courses</h3>
+        </div>
+        <div class="box">
+          <span>3+</span>
+          <h3>Certification</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="education" id="education">
+    <h1 class="heading">my <span>education</span></h1>
+    <div class="box-container">
+
+      <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>Agricultural Engineering</h3>
+        <p>Federal University of Agricultural</p>
+        <br><br><br><br>
+      </div>
+      <div class="box">
+        <i class="fas fa-book"></i>
+        <span>2022</span>
+        <h3>100 Days of code: The Complete Python Pro Bootcamp for 2022</h3>
+        <p>Udemy</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-book"></i>
+        <span>2022</span>
+        <h3>Responsive Web Design Certificate</h3>
+        <p>FreeCodeCamp</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-book"></i>
+        <span>2022</span>
+        <h3>Pytho for Data Science & AI</h3>
+        <p>Kaggle.com</p>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <h1 class="heading">my <span>portfolio</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" alt="html">
+        <div class="overlay"></div>
+          <div class="serviceDesc">
+            <div class="skill">
+              <h3>HTML</h3>
+              <div class="rating">
+                <i id="one" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="two" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="three" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="four" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="five" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+            <p>I write semantic html codes, detailed, simple yet producing outstanding layouts.</p>
+          </div>
+      </div>
+      <div class="box">
+        <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png" alt="css">
+        <div class="overlay"></div>
+          <div class="serviceDesc">
+            <div class="skill">
+              <h3>CSS</h3>
+              <div class="rating">
+                <i id="one" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="two" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="three" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="four" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="five" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+            <p>I like well styled website, and that's exactly what i build.Attractive and responsive webpages with CSS</p>
+          </div>
+      </div>
+      <div class="box">
+        <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-javascript/sta-je-javascript.jpg" alt="javascript">
+        <div class="overlay"></div>
+          <div class="serviceDesc">
+            <div class="skill">
+              <h3>JAVASCRIPT</h3>
+              <div class="rating">
+                <i id="one" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="two" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="three" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="four" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="five" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+            <p>Javascript helps me make your website interactive. Imagine communicating with your webpages. Sound's like fun right?</p>
+          </div>
+      </div>
+
+
+      <div class="box">
+        <img src="https://gadgetstripe.com/wp-content/uploads/2021/03/website-to-learn-python-gadgetstripe.jpeg" alt="python">
+        <div class="overlay"></div>
+          <div class="serviceDesc">
+            <div class="skill">
+              <h3>PYTHON</h3>
+              <div class="rating">
+                <i id="one" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="two" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="three" style="color: orange; opacity: 1;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="four" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+                <i id="five" style="color: orange; opacity: .5;" class="fa fa-star fa-lg" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+            <p>I use python frameworks such as django to build the backend for web applications.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h1 class="heading">contact <span>me</span></h1>
+    <div class="row">
+      <div class="content">
+        <h3 class="title">Contact Info</h3>
+        <div class="info">
+          <h3><i class="fas fa-phone"></i>(+234) 816-076-5447</h3>
+          <h3><i class="fas fa-phone"></i>(+234) 912-697-8009</h3>
+          <h3><i class="fas fa-envelope"></i>mchladela@gmail.com</h3>
+          <a href="https://www.linkedin.com/in/michael-gbadebo-8329361b4/"><img src="https://cdn-user-icons.flaticon.com/75119/75119466/1657786472047.svg?token=exp=1657787374~hmac=84532ce73e341848fa305ee9eddd5db1" alt="LinkedIn_icon">Michael (A.) Gbadebo</a>
+          <a href="https://twitter.com/Michael_G996"><img src="https://cdn-user-icons.flaticon.com/75119/75119466/1657785621350.svg?token=exp=1657786524~hmac=52881b0efdd1c52426d79757e9716f31" alt="twitter_icon">@Michael_G996</a>
+          <a href="https://github.com/Zion-El"><img src="https://cdn-user-icons.flaticon.com/75119/75119466/1657786113438.svg?token=exp=1657787016~hmac=3eab8139f0474350b397c4c0b63b9408" alt="github_icon">Michael Gbadebo</a>
+        </div>
+      </div>
+      <form action="mailto:mchladelola@gmail.com">
+        <input type="text" placeholder="Name" class="box">
+        <input type="email" placeholder="abc@gmail.com" name="" id="" class="box">
+        <input type="text" placeholder="Project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
