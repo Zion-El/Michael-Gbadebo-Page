@@ -388,9 +388,9 @@ header .navbar{
     font-weight: normal;
 }
 .contact .row .content .info a img{
-    width: 30px;
+    width: 40px;
     height: 30px;
-    margin-right: 10px;
+    padding-right: 1rem;
 }
 .contact .row .content .info h3 i{
     padding-right: 1rem;
