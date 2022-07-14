@@ -321,6 +321,7 @@ header .navbar{
 .skill{
         display: flex;
         justify-content: space-between;
+        align-items: center;
 }
 .skill h3{
     font-size: 2rem;
@@ -337,7 +338,8 @@ header .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    margin-bottom: 70px;  
 }
 .contact .row .content{
     flex: 1 1 30rem;
@@ -392,6 +394,14 @@ header .navbar{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color: var(--orange);
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    color: #eee;
+    font-size: 1.5rem;
 }
 
 
